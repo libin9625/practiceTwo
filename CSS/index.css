@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+.libin{
+    background-image: url("../images/background.png");
+    position: absolute;;
+    top: 0;
+    left: 0;
+    width:100%;
+    min-width: 1000px;
+    z-index:-10;
+    zoom: 1;
+    background-size: cover;
+}
+
+.libin .lb-header button{
+    background-color: #f2f2f2;
+    width: 83px;
+    height: 24px;
+    border: none;
+    border-radius: 4px;
+    color: #e45243;
+    position: absolute;
+    right: 18%;
+    top: 34%;
+    
+}
+
+.libin .lb-header button:hover{
+    background-color: #f5f5f5;
+    color: #ce2514;
+    box-shadow: 0 3px 0 #b93404;
+}
+
+.lb-content{
+    width: 100%;
+    
+}
+
+.lb-content .lb-content-inner{
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 25%;
+    height: 245px;
+}
+
+.content-left{
+    width: 48%;
+    float: left;
+}
+
+.content-header{
+    font-size: 18px;
+    color: #d80000;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px dashed #da2321;
+}
+
+.header-left{
+    float: left;
+}
+
+.header-left img{
+    position: relative;
+    top: 4px;
+}
+
+.header-right{
+    font-size: 10px;
+    color: #da2321;
+    float: right;
+    font-weight: normal;
+}
+
+.content-left ul li{
+    list-style: none;
+    font-size: 14px;
+    margin-top: 8px;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.content-left ul li:hover{
+    color: #e13f3e;
+}
+
+.content-left ul li .name{
+    float: left;
+}
+
+.content-left ul li .date{
+    float: right;
+}
+
+.content-left ul li span{
+    margin-left: 2px;
+}
+
+.content-left ul li span.circle{
+    color: #d80000;
+}
+
+.content-right{
+    width: 50%;
+    float: right;
+    border: 1px solid white;
+}
+
+.content-right img.picture{
+    width: 98%;
+    padding: 1%;
+}
+
+.lb-content .content-down{
+    margin-top: 2%;
+    margin-bottom: 60px;
+}
+
+.content-down .clearly h2{
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    text-align: center;
+    margin: 2% 0 2% 0;
+}
+
+.content-down .clearly p{
+    text-indent: 4%;
+    font-size: 10px;
+    color: #666666;
+    height: 16px;
+    line-height: 16px;
+    margin-top: 8%;
+}
+
+.content-down .clearly ul{
+    margin-top: 15%;
+    border-top: 1px dashed #d2d2d2;
+}
+
+#ex1Slider .slider-selection {  
+    background: #BABABA;  
+}
+.border{
+    border: none;
+}  
